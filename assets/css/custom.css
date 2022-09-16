@@ -154,6 +154,19 @@ footer a:hover {
   color: #000;
 }
 
+.parceiros img {
+  height: 60px;
+  width: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.parceiros img:hover {
+  filter: grayscale(0%);
+}
+
 @media (min-width: 768px) {
   .transparencia-box {
     background-image: url('../img/transp.png');
@@ -275,6 +288,10 @@ footer a:hover {
   }
   footer div, footer h5{
     text-align: center;
+  }
+  .parceiros img {
+    height: 42px;
+    width: auto;
   }
 }
 
