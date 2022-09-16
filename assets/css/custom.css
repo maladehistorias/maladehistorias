@@ -29,12 +29,14 @@ h5,
 h6 {
 
   font-family: 'Barlow', sans-serif;
+
 }
 
 h1 {
   color: #96673f;
   font-weight: 800;
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 
@@ -55,7 +57,7 @@ h5 {
 }
 
 hr {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .topo {
@@ -133,8 +135,7 @@ footer h5 {
 
 .active {
   color: #523012;
-  border-top: solid 3px #ba8146;
-  margin-top: -3px;
+  border-bottom: solid 3px #ba8146;
 }
 
 footer a:hover {
@@ -217,20 +218,58 @@ footer a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
   body,
   p {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
-  .p-5{
+  .p-5 {
     padding: 2rem !important;
   }
 
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
+
   .sep {
+    margin-bottom: 30px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: left;
+  }
+
+  hr {
     margin-bottom: 20px;
-    }
+  }
+
+  .p-4 {
+    padding: 0.5rem !important;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  body,
+  p {
+    font-size: 1.1rem;
+  }
+
+  .p-5 {
+    padding: 2.2rem !important;
+  }
+
+  .sep {
+    margin-bottom: 40px;
+  }
+
 }
 
 
