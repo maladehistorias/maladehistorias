@@ -138,7 +138,22 @@
 					</p>
 					<div class="text-center">
 
-						<a id="donate-button" class="btn btn-primary btn-rounded mt-4" href="#" role="button">seja um padrinho</a>
+						<div id="donate-button-container" height="10px">
+							<div id="donate-button"></div>
+							<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+							<script>
+							PayPal.Donation.Button({
+							env:'production',
+							hosted_button_id:'QYTMYJ3VWEQJQ',
+							image: {
+							src:'assets/img/seja-um-padrinho.png',
+							alt:'Faça doações com o botão do PayPal',
+							title:'',
+							}
+							}).render('#donate-button');
+							</script>
+						  </div>
+
 					</div>
 
 				</div>
@@ -189,11 +204,15 @@
 
 			<div class="container parceiros">
 
-				<h3 class="text-center">Parceiros</h3>
+				<h6 class="text-center">Patrocinador</h6>
+				<img class="m-3 patrocinador" src="assets/img/parceiros/sicredi_400px.png" height="80px"/>
+				
 				<hr />
-				<div class="row justify-content-end">
+				<h6 class="text-center">Parceiros</h6>
+				<div class="row justify-content-end parceiros">
 
 					<div class="col-md-12">
+
 
 						<img class="m-3" src="assets/img/parceiros/BreveProd_fundo_escuro_400px.png" />
 						<img class="m-3" src="assets/img/parceiros/doce-paladar_400px.png" />
@@ -202,7 +221,8 @@
 						<img class="m-3" src="assets/img/parceiros/mmp_400px.png" />
 						<img class="m-3" src="assets/img/parceiros/origini_400px.png" />
 						<img class="m-3" src="assets/img/parceiros/criatto_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/sicredi_400px.png" />
+						<img class="m-3" src="assets/img/parceiros/quintandinha_400px.png" />
+						<img class="m-3" src="assets/img/parceiros/elegia-cafe_400px.png" />
 
 					</div>
 				</div>
