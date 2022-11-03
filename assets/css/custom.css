@@ -170,6 +170,11 @@ footer a:hover {
   filter: grayscale(0%);
 }
 
+#modal-contato a{
+  text-decoration: none;
+  color: #000;
+}
+
 
 @media (min-width: 768px) {
   .transparencia-box {

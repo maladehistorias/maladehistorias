@@ -147,7 +147,23 @@
                             taxas.
                             <div class="text-center">
     
-                                <a class="btn btn-primary btn-rounded mt-4" href="#" role="button">doar agora</a>
+                                <!-- <a class="btn btn-primary btn-rounded mt-4" href="#" role="button">clique para doar</a> -->
+
+                                <div id="donate-button-container" height="10px">
+                                    <div id="donate-button"></div>
+                                    <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                                    <script>
+                                    PayPal.Donation.Button({
+                                    env:'production',
+                                    hosted_button_id:'QYTMYJ3VWEQJQ',
+                                    image: {
+                                    src:'assets/img/doe-agorapng.png',
+                                    alt:'Faça doações com o botão do PayPal',
+                                    title:'',
+                                    }
+                                    }).render('#donate-button');
+                                    </script>
+                                  </div>
                             </div>
                         </p>
                     </div>
@@ -171,7 +187,7 @@
 								<i class="bi bi-envelope-fill"></i>  contato@maladehistorias.org
 							</h4>
 							<h3>
-								<i class="bi bi-whatsapp"></i>  (62) 99952-3805
+								<i class="bi bi-whatsapp"></i>  <a class="" href="https://wa.me/5562999523805" role="button" target="_blank">(62) 99952-3805</a>
 							</h3>
 						</div>
 					</div>
