@@ -175,6 +175,13 @@ footer a:hover {
   color: #000;
 }
 
+.blockquote {
+  border-left: solid 4px #96673f;
+  padding: 10px;
+  background-color: #faefe3;
+  color: #6e431f;
+}
+
 
 @media (min-width: 768px) {
   .transparencia-box {
