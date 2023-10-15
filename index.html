@@ -1,451 +1,587 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A Mala de Histórias é uma organização social sem fins lucrativos que tem por missão buscar a transformação social da realidade de crianças e de jovens através da leitura e da literatura"
+    />
+    <meta
+      name="author"
+      content="Altino Dantas, Diogo Freitas, Bárbara Wendel e Colaboradores da Mala de Histórias"
+    />
+    <meta name="generator" content="Hugo 0.101.0" />
+    <title>Mala de Histórias</title>
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description"
-		content="A Mala de Histórias é uma organização social sem fins lucrativos que tem por missão buscar a transformação social da realidade de crianças e de jovens através da leitura e da literatura" />
-	<meta name="author" content="Altino Dantas, Diogo Freitas, Bárbara Wendel e Colaboradores da Mala de Histórias" />
-	<meta name="generator" content="Hugo 0.101.0" />
-	<title>Mala de Histórias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Barlow:wght@100;300;600;800&display=swap"
+      rel="stylesheet"
+    />
 
-	<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Barlow:wght@100;300;600;800&display=swap"
-		rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-	<link href="assets/css/main.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/boxes.css" rel="stylesheet" />
+  </head>
 
-	<!-- Custom styles for this template -->
-	<link href="assets/css/custom.css" rel="stylesheet" />
-	<link href="assets/css/boxes.css" rel="stylesheet" />
-</head>
+  <body>
+    <main>
+      <nav
+        class="navbar navbar-expand-lg navbar-ligth bg-blue fixed-top"
+        aria-label="Fifth navbar example"
+      >
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Expand at lg</a> -->
 
-<body>
-	<main>
-		<nav class="navbar navbar-expand-lg navbar-ligth bg-blue fixed-top" aria-label="Fifth navbar example">
-			<div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mala-navbar"
+            aria-controls="mala-navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-				<!-- <a class="navbar-brand" href="#">Expand at lg</a> -->
+          <div class="collapse navbar-collapse" id="mala-navbar">
+            <ul class="navbar-nav me-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./historia.html"
+                  >A Mala de Histórias</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./o-que-fazemos.html"
+                  >O que fazemos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./colabore.html">Colabore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./transparencia.html"
+                  >Transparência</a
+                >
+              </li>
+            </ul>
 
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mala-navbar"
-					aria-controls="mala-navbar" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-contato"
+                  >Contato</a
+                >
+              </li>
+              <li class="nav-item ms-2 me-3">
+                <a
+                  class="btn btn-warning btn-rounded"
+                  href="./doe-agora.html"
+                  role="button"
+                  >Doe agora</a
+                >
+              </li>
+              <li class="nav-item ms-2 mt-1">
+                <a
+                  href="https://www.instagram.com/maladehistoriasgo/"
+                  target="_blank"
+                >
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-item ms-2 mt-1">
+                <a
+                  href="https://www.youtube.com/channel/UC49YzvgpDwimKP1436UACcg"
+                  target="_blank"
+                >
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </li>
+              <li class="nav-item ms-2 mt-1">
+                <a
+                  href="https://www.facebook.com/maladehistoriasgo"
+                  target="_blank"
+                >
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-				<div class="collapse navbar-collapse" id="mala-navbar">
-					<ul class="navbar-nav me-auto mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Início</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="./historia.html">A Mala de Histórias</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="./o-que-fazemos.html">O que fazemos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="./colabore.html">Colabore</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="./transparencia.html">Transparência</a>
-						</li>
-					</ul>
+      <div class="topo-home text-center">
+        <img
+          src="assets/img/logo_mala.png"
+          width="150px"
+          alt="logo mala de histórias"
+          class="logo"
+        />
+      </div>
 
+      <div class="container">
+        <div>
+          <div class="bg-white p-5 rounded header ml-box text-center">
+            <h2 class="text-center">
+              Você acredita no poder transformador da leitura?
+            </h2>
 
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#" data-bs-toggle="modal"
-								data-bs-target="#modal-contato">Contato</a>
-						</li>
-						<li class="nav-item ms-2 me-3">
-							<a class="btn btn-warning btn-rounded" href="./doe-agora.html" role="button">Doe agora</a>
+            <div class="col-md-12 p-3">
+              <!-- <div class="col-sm-10 mx-auto p-3"> -->
 
-						</li>
-						<li class="nav-item ms-2 mt-1">
-							<a href="https://www.instagram.com/maladehistoriasgo/" target="_blank">
-								<i class="bi bi-instagram"></i>
-							</a>
-						</li>
-						<li class="nav-item ms-2 mt-1">
+              <a
+                class="btn btn-success btn-rounded mt-4"
+                href="./apadrinhamento.html"
+                role="button"
+              >
+                Apadrinhe a Mala de Histórias
+                <i class="bi bi-arrow-right-short"></i
+              ></a>
+            </div>
+          </div>
 
-							<a href="https://www.youtube.com/channel/UC49YzvgpDwimKP1436UACcg" target="_blank">
-								<i class="bi bi-youtube"></i>
-							</a>
-						</li>
-						<li class="nav-item ms-2 mt-1">
-							<a href="https://www.facebook.com/maladehistoriasgo" target="_blank">
-								<i class="bi bi-facebook"></i>
-							</a>
-						</li>
-					</ul>
+          <div class="sep"></div>
 
-				</div>
-			</div>
-		</nav>
+          <div class="text-center">
+            <img src="assets/img/missao.svg" width="50px" class="mb-3" />
+            <div class="row align-items-start col-md-8 mx-auto">
+              <h1 class="text-center">Missão</h1>
 
-		<div class="topo-home text-center">
+              <p class="mt-5">
+                Promover a transformação social da realidade de crianças e de
+                jovens em situação de vulnerabilidade social por meio da leitura
+                e da literatura.
+              </p>
+            </div>
 
-			<img src="assets/img/logo_mala.png" width="150px" alt="logo mala de histórias" class="logo" />
+            <a
+              class="btn btn-primary btn-rounded mt-4"
+              href="./historia.html"
+              role="button"
+              >leia mais <i class="bi bi-arrow-right-short"></i
+            ></a>
+          </div>
 
-		</div>
+          <div class="sep"></div>
 
-		<div class="container">
-			<div>
-				<div class="bg-white p-5 rounded header ml-box text-center">
-					<h2 class="text-center">Você acredita no poder transformador da leitura?</h2>
+          <div class="bg-white rounded ml-box home-box">
+            <div class="p-5 rounded home-box-inner">
+              <h1 class="text-center">O que fazemos</h1>
 
-					<div class="col-md-12 p-3">
-						<!-- <div class="col-sm-10 mx-auto p-3"> -->
+              <div class="col-md-7 mx-auto">
+                <!-- <div class="col-sm-10 mx-auto p-3"> -->
 
-						<a class="btn btn-success btn-rounded mt-4" href="./apadrinhamento.html" role="button">
-							Apadrinhe a Mala de Histórias <i class="bi bi-arrow-right-short"></i></a>
+                <p class="p-3">
+                  Há mais de 2 anos a Mala de Histórias tem levado sonhos e
+                  esperanças por meio da leitura e da literatura para crianças e
+                  jovens em situação de vulnerabilidade social.
+                </p>
 
+                <p class="p-3">
+                  Buscamos fornecer meios para que essas crianças e jovens
+                  sonhem e imaginem novos cenários e novas realidades para suas
+                  próprias vidas, para que, assim, eles mesmos sejam capazes de
+                  criar novos futuros.
+                </p>
 
-					</div>
-				</div>
+                <div class="text-center">
+                  <a
+                    class="btn btn-primary btn-rounded m-5"
+                    href="./o-que-fazemos.html"
+                    role="button"
+                    >saiba mais <i class="bi bi-arrow-right-short"></i
+                  ></a>
+                </div>
+              </div>
 
-				<div class="sep"></div>
+              <div
+                id="numeros"
+                class="row align-items-start col-lg-10 col-md-12 mx-auto text-center"
+              >
+                <div class="col-md-4">
+                  <h3 class="text-center">3.498</h3>
+                  <p>Livros Distribuídos</p>
+                </div>
+                <div class="col-md-4">
+                  <h3 class="text-center">34</h3>
+                  <p>Ações Realizadas</p>
+                </div>
+                <div class="col-md-4">
+                  <h3 class="text-center">2.647</h3>
+                  <p>Kits e Lanches Distribuídos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="sep"></div>
+      </div>
 
-				<div class="text-center">
-					<img src="assets/img/missao.svg" width="50px" class="mb-3" />
-					<div class="row align-items-start col-md-8 mx-auto">
-
-						<h1 class="text-center">Missão</h1>
-
-						<p class="mt-5">
-							Promover a transformação social da realidade de crianças e de jovens em situação de
-							vulnerabilidade social por meio da leitura e da literatura.
-						</p>
-
-					</div>
-
-					<a class="btn btn-primary btn-rounded mt-4" href="./historia.html" role="button">leia mais <i
-							class="bi bi-arrow-right-short"></i></a>
-
-				</div>
-
-				<div class="sep"></div>
-
-
-				<div class="bg-white rounded ml-box home-box">
-					<div class="p-5 rounded home-box-inner">
-						<h1 class="text-center">O que fazemos</h1>
-
-						<div class="col-md-7 mx-auto">
-							<!-- <div class="col-sm-10 mx-auto p-3"> -->
-
-							<p class="p-3">
-								Há mais de 2 anos a Mala de Histórias tem levado sonhos e esperanças por meio da leitura
-								e da literatura para crianças e jovens em situação de vulnerabilidade social.
-							</p>
-
-							<p class="p-3">
-								Buscamos fornecer meios para que essas crianças e jovens sonhem e imaginem novos
-								cenários e novas realidades para suas próprias vidas, para que, assim, eles mesmos sejam
-								capazes de criar novos futuros.
-							</p>
-
-							<div class="text-center">
-								<a class="btn btn-primary btn-rounded m-5" href="./o-que-fazemos.html"
-									role="button">saiba mais <i class="bi bi-arrow-right-short"></i></a>
-							</div>
-
-						</div>
-
-						<div id="numeros" class="row align-items-start col-lg-10 col-md-12 mx-auto text-center">
-							<div class="col-md-4">
-								<h3 class="text-center">3.498</h3>
-								<p>Livros Distribuídos</p>
-							</div>
-							<div class="col-md-4">
-								<h3 class="text-center">34</h3>
-								<p>Ações Realizadas</p>
-							</div>
-							<div class="col-md-4">
-								<h3 class="text-center">2.647</h3>
-								<p>Kits e Lanches Distribuídos</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-
-			<div class="sep"></div>
-
-
-		</div>
-
-		<!-- <div class="container text-center">
+      <!-- <div class="container text-center">
 			<h1 class="text-center">Como colaborar</h1>
 			<div class="sep"></div>
 		</div> -->
 
+      <div class="container text-start">
+        <div class="row align-items-start col-sm-12 mx-auto">
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="image-box image-box-style3">
+              <div class="thumb-service">
+                <img
+                  src="assets/img/voluntario.png"
+                  alt="Research and strategy"
+                />
+              </div>
 
-		<div class="container text-start">
-			<div class="row align-items-start col-sm-12 mx-auto">
+              <div class="title-wrap">
+                <h6>Seja volutário</h6>
+                <div class="content">
+                  Gere impacto sendo vonlutários em diversas atividades.
+                </div>
+                <a
+                  class="btn btn-primary btn-rounded btn-sm"
+                  href="./colabore.html#voluntario"
+                  target="_self"
+                  ><span class="button-text">Acessar</span>
+                  <span class="button-arrow"
+                    ><span class="button-icon"></span></span
+                ></a>
+              </div>
+            </div>
+          </div>
 
-				<div class="col-lg-4 col-md-6 p-3">
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="image-box image-box-style3">
+              <div class="thumb-service">
+                <img
+                  src="assets/img/padrinho.png"
+                  alt="Research and strategy"
+                />
+              </div>
 
-					<div class="image-box  image-box-style3">
+              <div class="title-wrap">
+                <h6>Seja padrinho</h6>
+                <div class="content">
+                  Conheça o nosso Programa de Apadrinhamento da Mala de
+                  Histórias.
+                </div>
+                <a
+                  class="btn btn-primary btn-rounded btn-sm"
+                  href="./apadrinhamento.html"
+                  target="_self"
+                  ><span class="button-text">Acessar</span>
+                  <span class="button-arrow"
+                    ><span class="button-icon"></span></span
+                ></a>
+              </div>
+            </div>
+          </div>
 
-						<div class="thumb-service">
-							<img src="assets/img/voluntario.png" alt="Research and strategy">
-						</div>
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="image-box image-box-style3">
+              <div class="thumb-service">
+                <img
+                  src="assets/img/parceiro.png"
+                  alt="Research and strategy"
+                />
+              </div>
 
-						<div class="title-wrap">
-							<h6>Seja volutário</h6>
-							<div class="content">
-								Gere impacto sendo vonlutários em diversas atividades.
-							</div>
-							<a class="btn btn-primary btn-rounded btn-sm" href="./colabore.html#voluntario"
-								target="_self"><span class="button-text">Acessar</span> <span class="button-arrow"><span
-										class="button-icon"></span></span></a>
-						</div>
-					</div>
-				</div>
+              <div class="title-wrap">
+                <h6>Seja parceiro</h6>
+                <div class="content">
+                  A sua empresa também pode fazer parte dessa história conosco.
+                </div>
+                <a
+                  class="btn btn-primary btn-rounded btn-sm"
+                  href="./colabore.html#parceiro"
+                  target="_self"
+                  ><span class="button-text">Acessar</span>
+                  <span class="button-arrow"
+                    ><span class="button-icon"></span></span
+                ></a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="image-box image-box-style3">
+              <div class="thumb-service">
+                <img
+                  src="assets/img/livros.png"
+                  alt="Research and strategy"
+                  width="400"
+                  height="267"
+                />
+              </div>
 
+              <div class="title-wrap">
+                <h6>Doe livros</h6>
+                <div class="content">
+                  Colabore com nossas ações doando livros em um dos pontos de
+                  coleta.
+                </div>
+                <a
+                  class="btn btn-primary btn-rounded btn-sm"
+                  href="./colabore.html#doe-livros"
+                  target="_self"
+                  ><span class="button-text">Acessar</span>
+                  <span class="button-arrow"
+                    ><span class="button-icon"></span></span
+                ></a>
+              </div>
+            </div>
+          </div>
 
-				<div class="col-lg-4 col-md-6 p-3">
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="image-box image-box-style3">
+              <div class="thumb-service">
+                <img src="assets/img/doe.png" alt="Research and strategy" />
+              </div>
 
-					<div class="image-box  image-box-style3">
+              <div class="title-wrap">
+                <h6>Doe qualquer valor</h6>
+                <div class="content">
+                  Conheça as diferentes formas de contribuição financeira.
+                </div>
+                <a
+                  class="btn btn-primary btn-rounded btn-sm"
+                  href="./doe-agora.html"
+                  target="_self"
+                  ><span class="button-text">Acessar</span>
+                  <span class="button-arrow"
+                    ><span class="button-icon"></span></span
+                ></a>
+              </div>
+            </div>
+          </div>
 
-						<div class="thumb-service">
-							<img src="assets/img/padrinho.png" alt="Research and strategy">
-						</div>
+          <div class="col-lg-4 col-md-6 p-3">
+            <div class="image-box image-box-style3">
+              <div class="thumb-service">
+                <img src="assets/img/pix.png" alt="Research and strategy" />
+              </div>
 
-						<div class="title-wrap">
-							<h6>Seja padrinho</h6>
-							<div class="content">
-								Conheça o nosso Programa de Apadrinhamento da Mala de Histórias.
-							</div>
-							<a class="btn btn-primary btn-rounded btn-sm" href="./apadrinhamento.html"
-								target="_self"><span class="button-text">Acessar</span> <span class="button-arrow"><span
-										class="button-icon"></span></span></a>
-						</div>
-					</div>
-				</div>
+              <div class="title-wrap">
+                <h6>Faça um PIX</h6>
+                <div class="content">
+                  Colabore com qualquer valor doado diretamente para a Mala de
+                  Histórias.
+                </div>
+                <a
+                  class="btn btn-primary btn-rounded btn-sm"
+                  href="./doe-agora.html"
+                  target="_self"
+                  ><span class="button-text">Acessar</span>
+                  <span class="button-arrow"
+                    ><span class="button-icon"></span></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="container-fluid text-center bg-white pt-5 mt-5 pb-5">
+        <div class="container">
+          <h6 class="text-center">Patrocinador</h6>
+          <img
+            class="m-3 patrocinador"
+            src="assets/img/parceiros/sicredi_400px.png"
+            height="80px"
+          />
 
-				<div class="col-lg-4 col-md-6 p-3">
+          <hr />
+          <h6 class="text-center">Parceiros</h6>
+          <div class="row justify-content-end parceiros">
+            <div class="col-md-12">
+              <img
+                class="m-3"
+                src="assets/img/parceiros/BreveProd_fundo_escuro_400px.png"
+              />
+              <img
+                class="m-3"
+                src="assets/img/parceiros/doce-paladar_400px.png"
+              />
+              <img
+                class="m-3"
+                src="assets/img/parceiros/logo-mariza_400px.png"
+              />
+              <img
+                class="m-3"
+                src="assets/img/parceiros/logo-nutri_400px.png"
+              />
+              <img class="m-3" src="assets/img/parceiros/mmp_400px.png" />
+              <img class="m-3" src="assets/img/parceiros/origini_400px.png" />
+              <img class="m-3" src="assets/img/parceiros/criatto_400px.png" />
+              <img
+                class="m-3"
+                src="assets/img/parceiros/quintandinha_400px.png"
+              />
+              <img
+                class="m-3"
+                src="assets/img/parceiros/elegia-cafe_400px.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
-					<div class="image-box  image-box-style3">
-
-						<div class="thumb-service">
-							<img src="assets/img/parceiro.png" alt="Research and strategy">
-						</div>
-
-						<div class="title-wrap">
-							<h6>Seja parceiro</h6>
-							<div class="content">
-								A sua empresa também pode fazer parte dessa história conosco.
-							</div>
-							<a class="btn btn-primary btn-rounded btn-sm" href="./colabore.html#parceiro"
-								target="_self"><span class="button-text">Acessar</span> <span class="button-arrow"><span
-										class="button-icon"></span></span></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 p-3">
-
-					<div class="image-box  image-box-style3">
-
-						<div class="thumb-service">
-							<img src="assets/img/livros.png" alt="Research and strategy" width="400" height="267">
-						</div>
-
-						<div class="title-wrap">
-							<h6>Doe livros</h6>
-							<div class="content">
-								Colabore com nossas ações doando livros em um dos pontos de coleta.
-							</div>
-							<a class="btn btn-primary btn-rounded btn-sm" href="./colabore.html#doe-livros"
-								target="_self"><span class="button-text">Acessar</span> <span class="button-arrow"><span
-										class="button-icon"></span></span></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 p-3">
-
-					<div class="image-box  image-box-style3">
-
-						<div class="thumb-service">
-							<img src="assets/img/doe.png" alt="Research and strategy">
-						</div>
-
-						<div class="title-wrap">
-							<h6>Doe qualquer valor</h6>
-							<div class="content">
-								Conheça as diferentes formas de contribuição financeira.
-							</div>
-							<a class="btn btn-primary btn-rounded btn-sm" href="./doe-agora.html" target="_self"><span
-									class="button-text">Acessar</span> <span class="button-arrow"><span
-										class="button-icon"></span></span></a>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col-lg-4 col-md-6 p-3">
-
-					<div class="image-box  image-box-style3">
-
-						<div class="thumb-service">
-							<img src="assets/img/pix.png" alt="Research and strategy">
-						</div>
-
-						<div class="title-wrap">
-							<h6>Faça um PIX</h6>
-							<div class="content">
-								Colabore com qualquer valor doado diretamente para a Mala de Histórias.
-							</div>
-							<a class="btn btn-primary btn-rounded btn-sm" href="./doe-agora.html" target="_self"><span
-									class="button-text">Acessar</span> <span class="button-arrow"><span
-										class="button-icon"></span></span></a>
-						</div>
-					</div>
-				</div>
-
-
-
-			</div>
-
-		</div>
-
-		<div class="container-fluid text-center bg-white pt-5 mt-5 pb-5">
-
-			<div class="container">
-
-				<h6 class="text-center">Patrocinador</h6>
-				<img class="m-3 patrocinador" src="assets/img/parceiros/sicredi_400px.png" height="80px" />
-
-				<hr />
-				<h6 class="text-center">Parceiros</h6>
-				<div class="row justify-content-end parceiros">
-
-					<div class="col-md-12">
-
-
-						<img class="m-3" src="assets/img/parceiros/BreveProd_fundo_escuro_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/doce-paladar_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/logo-mariza_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/logo-nutri_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/mmp_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/origini_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/criatto_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/quintandinha_400px.png" />
-						<img class="m-3" src="assets/img/parceiros/elegia-cafe_400px.png" />
-
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-		<!-- <div class="container text-center">
+      <!-- <div class="container text-center">
 			<div class="sep"></div>
 			<h1>Depoimentos</h1>
 			<div class="sep"></div>
 		</div> -->
 
+      <!-- Modal contato-->
+      <div
+        class="modal fade"
+        id="modal-contato"
+        tabindex="-1"
+        aria-labelledby="modal-contato"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Fale conosco</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="p-3">
+                <h4>
+                  <i class="bi bi-envelope-fill"></i>
+                  contato@maladehistorias.org
+                </h4>
+                <h3>
+                  <i class="bi bi-whatsapp"></i>
+                  <a
+                    class=""
+                    href="https://wa.me/5562999523805"
+                    role="button"
+                    target="_blank"
+                    >(62) 99952-3805</a
+                  >
+                </h3>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://www.instagram.com/maladehistoriasgo/"
+                target="_blank"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UC49YzvgpDwimKP1436UACcg"
+                target="_blank"
+              >
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/maladehistoriasgo"
+                target="_blank"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<!-- Modal contato-->
-		<div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="modal-contato" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title">Fale conosco</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body">
-						<div class="p-3">
-							<h4>
-								<i class="bi bi-envelope-fill"></i> contato@maladehistorias.org
-							</h4>
-							<h3>
-								<i class="bi bi-whatsapp"></i> <a class="" href="https://wa.me/5562999523805"
-									role="button" target="_blank">(62) 99952-3805</a>
-							</h3>
-						</div>
-					</div>
-					<div class="modal-footer">
-						<a href="https://www.instagram.com/maladehistoriasgo/" target="_blank">
-							<i class="bi bi-instagram"></i>
-						</a>
-						<a href="https://www.youtube.com/channel/UC49YzvgpDwimKP1436UACcg" target="_blank">
-							<i class="bi bi-youtube"></i>
-						</a>
-						<a href="https://www.facebook.com/maladehistoriasgo" target="_blank">
-							<i class="bi bi-facebook"></i>
-						</a>
+      <footer id="footer" class="bg-mala">
+        <div class="container p-4">
+          <div class="row justify-content-between g-4">
+            <div class="col-xl-3 col-lg-3 col-md-6">
+              <h5>Fale com a gente</h5>
 
-					</div>
+              <a href="mailto:contato@maladehistorias.org"
+                >contato@maladehistorias.org</a
+              >
+              <br />
 
-				</div>
-			</div>
-		</div>
+              <a class="" href="https://wa.me/5562999523805" role="button">
+                <strong>(62) 99952-3805</strong>
+              </a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 text-center">
+              <form
+                action="https://maladehistorias.us10.list-manage.com/subscribe/post?u=a48407021afea4d38bf83880a&amp;id=0cc60be85e&amp;f_id=0006dde5f0"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_self"
+              >
+                <label for="news-letter" class="form-label"
+                  >Fique informado sobre nossas ações</label
+                >
+                <div
+                  style="position: absolute; left: -5000px"
+                  aria-hidden="true"
+                >
+                  <input
+                    type="text"
+                    name="b_a48407021afea4d38bf83880a_0cc60be85e"
+                    tabindex="-1"
+                    value=""
+                  />
+                </div>
 
+                <div class="input-group mb-3">
+                  <input
+                    name="EMAIL"
+                    id="news-letter"
+                    type="text"
+                    class="form-control btn-rounded"
+                    placeholder="digite seu e-mail"
+                    aria-label="e-mail"
+                    aria-describedby="button-addon2"
+                    required
+                  />
+                  <button
+                    name="subscribe"
+                    class="btn btn-warning btn-rounded"
+                    type="submit"
+                    id="button-addon2"
+                  >
+                    OK
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
 
+        <div class="text-center p-2 bg-mala-escuro">
+          © 2022 Mala de Histórias. Todos os direitos reservados.
+        </div>
+      </footer>
+    </main>
 
-		<footer id="footer" class="bg-mala">
-			<div class="container p-4">
-				<div class="row justify-content-between g-4">
-
-					<div class="col-xl-3 col-lg-3 col-md-6">
-						<h5>Fale com a gente</h5>
-
-
-						<a href="mailto:contato@maladehistorias.org">contato@maladehistorias.org</a> <br />
-
-						<a class="" href="https://wa.me/5562999523805" role="button">
-							<strong>(62) 99952-3805</strong>
-						</a>
-
-					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6 text-center">
-						<form
-							action="https://gmail.us20.list-manage.com/subscribe/post?u=d042fab17342b3f80b9ee787a&amp;id=3e1a7407be&amp;f_id=007b49e6f0"
-							method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-							class="validate" target="_self">
-							<label for="news-letter" class="form-label">Fique informado sobre nossas ações</label>
-							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-									name="b_d042fab17342b3f80b9ee787a_3e1a7407be" tabindex="-1" value=""></div>
-
-							<div class="input-group mb-3">
-
-								<input name="EMAIL" id="news-letter" type="text" class="form-control btn-rounded"
-									placeholder="digite seu e-mail" aria-label="e-mail"
-									aria-describedby="button-addon2" required>
-								<button name="subscribe" class="btn btn-warning btn-rounded" type="submit"
-									id="button-addon2">OK</button>
-
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-
-			<div class="text-center p-2 bg-mala-escuro">
-				© 2022 Mala de Histórias. Todos os direitos reservados.
-			</div>
-		</footer>
-
-	</main>
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-		crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
