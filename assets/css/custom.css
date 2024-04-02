@@ -170,6 +170,11 @@ footer a:hover {
   filter: grayscale(0%);
 }
 
+.apoiadores img {
+  height: 60px;
+  width: auto;
+}
+
 #modal-contato a{
   text-decoration: none;
   color: #000;
@@ -306,6 +311,10 @@ mark {
     text-align: center;
   }
   .parceiros img {
+    height: 42px;
+    width: auto;
+  }
+  .apoiadores img {
     height: 42px;
     width: auto;
   }
