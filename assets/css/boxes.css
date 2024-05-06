@@ -1,5 +1,5 @@
 .image-box-style3:hover .title-wrap h6{ 
-    color:#96673f
+    color:#f9bf3c
 }
 
 .service .thumb-service img{
@@ -97,7 +97,7 @@
     margin-bottom:15px
 }
 .image-box-style3 .title-wrap:after{
-    background:linear-gradient(345deg,#96673f 0,#f3b907 100%);
+    background:linear-gradient(345deg,#F9BF3C 0,#f5e5c2 100%);
     content:'';
     position:absolute;
     top:0;

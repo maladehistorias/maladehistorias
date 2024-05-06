@@ -49,7 +49,7 @@ h3 {
 
 
 h1 {
-  color: #96673f;
+  color: #193153;
   font-weight: 800;
   margin-bottom: 2rem;
 }
@@ -58,7 +58,7 @@ h1 {
 
 h2 {
   font-weight: 600;
-  color: #96673f;
+  color: #193153;
 }
 
 h3 {
@@ -68,7 +68,7 @@ h3 {
 
 h5 {
   font-weight: 800;
-  color: #96673f;
+  color: #193153;
 }
 
 hr {
@@ -76,14 +76,14 @@ hr {
 }
 
 .topo {
-  background-color: #c0f2f2;
+  background-color: #9EC5E9;
   height: 230px;
   margin-top: 20px;
 
 }
 
 .topo-home {
-  background-color: #c0f2f2;
+  background-color: #9EC5E9;
   height: 400px;
   margin-top: 20px;
 
@@ -91,12 +91,12 @@ hr {
 
 .topo-home .logo {
 
-  margin-top: 68px;
+  margin-top: 70px;
 
 }
 
 .bg-blue {
-  background-color: #c0f2f2;
+  background-color: #9EC5E9;
 }
 
 .header {
@@ -106,17 +106,17 @@ hr {
 }
 
 .bg-mala-escuro {
-  background-color: #96673f;
-  color: #ce9c68;
+  background-color: #27456f;
+  color: #FFF;
 }
 
 .bg-mala {
-  background-color: #ba8146;
+  background-color: #193153;
 }
 
 .modal-footer a {
   font-size: 1.5rem;
-  color: #96673f;
+  color: #193153;
   padding-left: 5px;
 }
 
@@ -126,18 +126,18 @@ hr {
 }
 
 footer {
-  color: #6e431f;
+  color: #FFF;
   font-size: 0.8em;
 }
 
 footer a,
 footer h5 {
   text-decoration: none;
-  color: #6e431f;
+  color: #FFF;
 }
 
 .nav-item a {
-  color: #96673f;
+  color: #193153;
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -145,12 +145,12 @@ footer h5 {
 }
 
 .nav-item a:hover {
-  color: #523012;
+  color: #19315385;
 }
 
 .active {
-  color: #523012;
-  border-bottom: solid 3px #ba8146;
+  color: #b7881d;
+  border-bottom: solid 3px #F9BF3C;
 }
 
 footer a:hover {
@@ -182,8 +182,8 @@ footer a:hover {
 
 mark {
   
-  background-color: #faefe3;
-  color: #6e431f;
+  background-color: #e0e8f4;
+  color: #193153;
 
 }
 
