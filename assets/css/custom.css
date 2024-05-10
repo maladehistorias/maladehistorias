@@ -400,7 +400,7 @@ figure {
 }
 
 .diretoria::after {
-  background: linear-gradient(345deg, #c0f1f1 0, #04acbb 100%);
+  background: linear-gradient(345deg, #c0f1f1 0, #9EC5E9 100%);
   content: '';
   position: absolute;
   top: 0;
@@ -427,13 +427,16 @@ figure {
 }
 
 .box-diretoria:hover h5 {
-  color: #04acbb;
+  color: #193153;
 }
 
 .box-diretoria h5 {
   color: #000;
 }
 
+.icon-linkedin {
+  color: #0077B5;
+}
 
 #modal-contato .modal-footer {
 
