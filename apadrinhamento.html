@@ -175,8 +175,8 @@
               capítulos dessa história conosco?
             </p>
             <div class="text-center">
-              <div id="donate-button-container" height="10px">
-                <div id="donate-button"></div>
+              <div id="donate-button-padrinho-container" height="10px">
+                <div id="donate-button-padrinho"></div>
                 <script
                   src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
                   charset="UTF-8"
@@ -186,11 +186,11 @@
                     env: "production",
                     hosted_button_id: "QYTMYJ3VWEQJQ",
                     image: {
-                      src: "assets/img/seja-um-padrinho.png",
+                      src: "assets/img/botao_padrinho.png",
                       alt: "Faça doações com o botão do PayPal",
                       title: "",
                     },
-                  }).render("#donate-button");
+                  }).render("#donate-button-padrinho");
                 </script>
               </div>
             </div>
@@ -255,11 +255,12 @@
       <div class="container-fluid text-center bg-white pt-5 mt-5 pb-5">
         <div class="container">
           <h6 class="text-center">Patrocinadores</h6>
-          <img
-            class="m-3 patrocinador"
-            src="assets/img/parceiros/minc_400px.png"
-            height="80px"
-          />
+          <div class="row justify-content-end patrocinadores">
+            <div class="col-md-12">
+              <a href="https://www.gov.br/cultura/pt-br"><img class="m-3" src="assets/img/parceiros/minc_400px.png" /></a>
+              <a href="https://institutocultural.sicoobunicentrobr.com.br"><img class="m-3" src="assets/img/parceiros/instituto_cultural_sicoob_400px.png" /></a>
+            </div>
+          </div>
 
           <hr />
           <h6 class="text-center">Apoiadores</h6>

@@ -175,6 +175,11 @@ footer a:hover {
   width: auto;
 }
 
+.patrocinadores img {
+  height: 100px;
+  width: auto;
+}
+
 #modal-contato a{
   text-decoration: none;
   color: #000;
@@ -315,6 +320,10 @@ mark {
     width: auto;
   }
   .apoiadores img {
+    height: 42px;
+    width: auto;
+  }
+  .patrocinadores img {
     height: 42px;
     width: auto;
   }
